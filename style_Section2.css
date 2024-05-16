@@ -1,0 +1,74 @@
+.section2{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.personagem{
+    width: 400px;
+}
+
+.interation2{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 10px 20px;
+    margin-bottom: 30px;
+    
+
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(87, 87, 87);
+    border-radius: 20px;
+    padding: 30px;
+    
+}
+
+.question > h2{
+    margin-bottom: 30px;
+}
+
+.question > h1, h2{
+    font-size: 40px;
+}
+
+.answer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.radio{
+    width: 20px;
+
+}
+
+.button-confirmation{
+    width: 130px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: var(--second-color);
+    border-color: var(--principal-color);
+    box-shadow: 0px 1px 3px 0px black;
+    font-weight: bolder;
+    transition: all 0.5s;
+}
+
+.button-interactive{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.button-confirmation:hover{
+    cursor: pointer;
+    background-color: var(--principal-color);
+    
+}

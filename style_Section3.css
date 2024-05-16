@@ -1,0 +1,35 @@
+.section3{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadro-score{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(87, 87, 87);
+    border-radius: 20px;
+    padding: 30px;
+
+}
+
+.quadro-score > h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.score{
+    margin-bottom: 20px;
+}
+
+.result{
+    color: var(--principal-color);
+}
+
+.score > h2{
+    font-size: 30px;
+    font-weight: lighter;
+    
+}
