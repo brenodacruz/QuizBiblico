@@ -24,18 +24,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     border: 5px solid rgb(87, 87, 87);
     border-radius: 20px;
     padding: 30px;
+    width: 500px;
     
 }
 
 .question > h2{
     margin-bottom: 30px;
+    color: var(--principal-color);
 }
 
 .question > h1, h2{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .answer{
