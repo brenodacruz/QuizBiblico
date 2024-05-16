@@ -331,7 +331,7 @@ function random() {
                 option4.innerHTML = "Calebe"
             break
             case 10:
-                pergunta.innerHTML = "Quem foi o profeta que foi engolido por um grande peixe?"
+                pergunta.innerHTML = "Quem foi engolido por um grande peixe?"
                 option1.innerHTML = "Daniel"
                 option2.innerHTML = "Moisés"
                 option3.innerHTML = "Jonas"
@@ -408,14 +408,14 @@ function random() {
                 option4.innerHTML = "João" // Resposta correta
             break
             case 21:
-                pergunta.innerHTML = "Quem foi o profeta que orou a Deus para fazer o sol parar durante uma batalha?"
+                pergunta.innerHTML = "Quem foi que orou a Deus para fazer o sol parar durante uma batalha?"
                 option1.innerHTML = "Samuel"
                 option2.innerHTML = "Moisés"
                 option3.innerHTML = "Josué" // Resposta correta
                 option4.innerHTML = "Davi"
             break
             case 22:
-                pergunta.innerHTML = "Quem foi o profeta que foi jogado na cova dos leões por não deixar de orar a Deus?"
+                pergunta.innerHTML = "Quem foi jogado na cova dos leões por não deixar de orar a Deus?"
                 option1.innerHTML = "Isaías"
                 option2.innerHTML = "Jeremias"
                 option3.innerHTML = "Daniel" // Resposta correta
